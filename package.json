@@ -10,5 +10,33 @@
   },
   "devDependencies": {
     "vite": "^3.2.3"
-  }
+  },
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.15.16",
+    "esbuild-windows-64": "^0.15.16",
+    "function-bind": "^1.1.1",
+    "has": "^1.0.3",
+    "is-core-module": "^2.11.0",
+    "postcss": "^8.4.19",
+    "resolve": "^1.22.1",
+    "picocolors": "^1.0.0",
+    "rollup": "^2.79.1",
+    "source-map-js": "^1.0.2",
+    "path-parse": "^1.0.7",
+    "nanoid": "^3.3.4",
+    "supports-preserve-symlinks-flag": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabricio-Luna47/Pokedex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fabricio-Luna47/Pokedex/issues"
+  },
+  "homepage": "https://github.com/Fabricio-Luna47/Pokedex#readme",
+  "description": ""
 }
