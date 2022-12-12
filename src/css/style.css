@@ -27,7 +27,7 @@ header img{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    box-shadow: rgba(50, 50, 226, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
        
 }
 
@@ -39,7 +39,7 @@ header img{
     align-items: center;
     gap: 20px;
     width: 50%;
-    background-color: azure;
+    background-color: rgb(163, 230, 230);
 }
 
 
@@ -52,14 +52,14 @@ header img{
 
 .formLocalizar button{
     width: 100%;
-    padding: 8px;
-    font-size: 20px;
-    border-radius: 20px;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 25px;
 }
 
 .display {
   width: 50%;
-  background-color: rgb(98, 60, 117);
+  background-color: rgb(157, 228, 224);
   display: flex;justify-content: center;
   align-items: center;
   width:200px ;
@@ -73,19 +73,22 @@ main{
 }
 
 .cartaoPokemon{
-    width: 500px;
-    height: 200px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-    background-color: aqua;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(188, 199, 191);
+    width: 150px;    
+    height: 200px;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px #0064e6; 
+    box-shadow: 5px 5px 15px 5px #05cad8;
+    
 }
 
 .pokemonSprite{
-    width: 100px;
-
+    width: 150px;
+    height: 100px;
 }
 
 
